@@ -14,9 +14,19 @@ irm https://gist.githubusercontent.com/teshah/919ad5d28858adf2b74a6d889e3f43b3/r
 
 ### What This Does Automatically:
 1. Downloads the 100% offline standalone release package (	talk-portable-v0.1.0-alpha.zip).
-2. Extracts it to %LOCALAPPDATA%\ttalk.
+2. Extracts it cleanly to %LOCALAPPDATA%\ttalk.
 3. Creates a **ttalk** shortcut directly on your Desktop.
-4. Launches the engine immediately — **no Git, no compilers, no Python setup required**.
+4. Launches the engine immediately — **zero third-party dependencies required**.
+
+---
+
+## 🗑️ 1-Click Uninstall
+
+To cleanly remove 	talk and its desktop shortcut, run:
+
+`powershell
+irm https://gist.githubusercontent.com/teshah/7ad69aebf046b0267f20214200dbd5f5/raw/uninstall.ps1 | iex
+`
 
 ---
 
