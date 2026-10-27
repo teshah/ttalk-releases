@@ -32,6 +32,9 @@ irm https://gist.githubusercontent.com/teshah/7ad69aebf046b0267f20214200dbd5f5/r
 
 ## 🚀 The `ttalk v1.0.0` Success Story
 
+> 📖 **Looking to replicate this methodology on your own projects?**  
+> Check out the **[Generic AI-Native Software Factory Blueprint](GENERIC_SOFTWARE_FACTORY.md)** — a reusable, language-agnostic engineering framework with tailored adaptations for **Spring Boot / Java AI**, Rust, and polyglot architectures.
+
 ### The Challenge
 Modern commercial voice dictation tools (such as Wispr Flow) deliver impressive user experiences, but operate as **cloud-tethered SaaS products**:
 * Every word you speak travels across the public internet to third-party servers.
