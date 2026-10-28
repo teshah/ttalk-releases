@@ -1,6 +1,7 @@
-# ttalk Releases & The v1.0.0 Success Story
+# ttalk: Air-Gapped Open-Source Wispr Implementation
+> **The v1.0.0 Production Release & Success Story**
 
-Official public binary releases, architecture overview, and 1-click bootstrap for **[ttalk](https://github.com/teshah/ttalk)** — an air-gapped, open-weights, open-source voice dictation engine running 100% locally on standard Windows hardware with zero cloud dependencies.
+Official public binary releases, architecture overview, and 1-click bootstrap for **`ttalk`** — an air-gapped, open-weights, open-source Wispr Flow equivalent running 100% locally on standard Windows hardware with zero cloud dependencies.
 
 ---
 
@@ -42,7 +43,11 @@ Modern commercial voice dictation tools (such as Wispr Flow) deliver impressive 
 * Unacceptable for confidential engineering environments, proprietary codebases, financial documents, or air-gapped networks.
 
 ### The Objective
-Engineer an **open-weights, open-source, air-gapped equivalent** capable of running on standard commodity developer laptops (tested on an Intel Core i7-8850H 6-core CPU with zero external GPU acceleration required).
+Engineer **`ttalk` as an Air-Gapped Open-Source Wispr Implementation**:
+* Open-weights and fully open-source.
+* Sub-second turnaround on standard commodity laptops (tested on an Intel Core i7-8850H 6-core CPU with zero external GPU acceleration required).
+* 100% private: no audio packets, transcripts, or telemetry ever touch the network.
+* Safe OS injection with byte-for-byte clipboard restoration.
 
 ### Methodology: Software Factory Discipline
 `ttalk` was built from inception under a strict **Software Factory Framework**:
